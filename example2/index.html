@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice 2</title>
+
+    <style>
+        body {
+            background: white;
+            font-size: 18px;
+            line-height: 24px;
+            margin-top: 50px;
+        }
+
+        .wrapper {
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+
+        .title {
+            color: #00ff24;
+            font-size: 28px;
+            line-height: 32px;
+            font-weight: bold;
+        }
+
+        .description {
+            color: black;
+        }
+
+        .icon {
+            font-size: 120px;
+            line-height: 120px;
+        }
+
+        /*----------------------------------------------------------------*/
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            flex-basis: calc(1170px / 3 - 50px);
+            text-align: center;
+            margin: 0 25px 35px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .icon {
+            flex-basis: 120px;
+        }
+        .content {
+            flex-basis: 320px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="boxes">
+        <div class="box box-1">
+            <div class="icon">😁</div>
+            <div class="content">
+                <div class="title">Lorem ipsum dolor.</div>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, maxime.</div>
+            </div>
+        </div>
+        <div class="box box-2">
+            <div class="icon">😉</div>
+            <div class="content">
+                <div class="title">Lorem ipsum dolor.</div>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, cum eaque est expedita hic, iure maiores, nobis odio officiis sint sit totam ullam vel voluptatum?</div>
+            </div>
+        </div>
+        <div class="box box-3">
+            <div class="icon">😊</div>
+            <div class="content">
+                <div class="title">Lorem ipsum dolor.</div>
+                <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, maxime.</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
